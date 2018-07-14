@@ -1,6 +1,7 @@
 html {
     margin: 0;
     padding: 0;
+    font-family: 'Microft Yahei';
 }
 
 .td-wrap {
@@ -8,7 +9,7 @@ html {
     height: 600px;
     font-size: 14px;
     color: #FFF;
-    font-family: 'Microft Yahei';
+   
     /* background: linear-gradient(to bottom, #4594fa, #54affc); */
     background: #1F9EFB;
 }
@@ -46,10 +47,34 @@ html {
     color: #666;
 }
 
-.td-button {
+.td-btn-position {
     position: absolute;
-    top: 64%;
+    top: 50%;
     left: 15%;
+}
+
+.td-button {
+    width: 110px;
+    height: auto;
+    padding: 15px;
+    border: solid 2px #FFF;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 4px;
+    /* background: #FFF; */
+}
+
+.td-button:hover {
+    cursor: pointer;
+}
+
+.td-button a {
+    font-size: 14px;
+    color: #FFF;    
+}
+
+.td-button a:link {
+    text-decoration: none;
 }
 
 /**/
