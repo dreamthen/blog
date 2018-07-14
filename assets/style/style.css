@@ -61,12 +61,20 @@ html {
     text-align: center;
     font-size: 14px;
     border-radius: 4px;
+    /* transition: 2s; */
     /* background: #FFF; */
 }
 
 .td-button:hover {
     cursor: pointer;
+    background: #FFF;
+    color: #1F9EFB;
+    transition: 0.5s;
 }
+
+
+
+
 
 .td-button a {
     font-size: 14px;
