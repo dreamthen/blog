@@ -49,8 +49,54 @@ html {
 
 .td-btn-position {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 15%;
+}
+
+@media(max-width: 1000px) {
+    .td-btn-position {
+        position: absolute;
+        top: 50%;
+        left: 15%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .td-btn-position {
+        position: absolute;
+        top: 60%;
+        left: 5%;
+    }
+
+}
+
+@media(max-width: 1400px) {
+    .td-btn-position {
+        position: absolute;
+        top: 60%;
+        left: 15%;
+    }
+
+    .svg-bg {
+        position: relative;
+        left: 37%;
+        height: inherit;
+    }
+    
+    .svg-secound-img {
+        position: relative;
+        z-index: 99999999;
+        height: 37%;
+        left: -2%
+    }
+}
+
+@media(max-width: 700px) {
+    .td-btn-position {
+        position: absolute;
+        top: 50%;
+        left: 15%;
+    }
 }
 
 .td-button {
