@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.td-mb-wrap {
+    width: 100%;
+    height: 600px;
+    font-size: 14px;
+    color: #FFF;
+   
+    /* background: linear-gradient(to bottom, #4594fa, #54affc); */
+    background: #1F9EFB;
+    text-align: center;
+}
+
+.td-mb-title {
+    position: relative;
+    top: 2em;
+    font-size: 3em;
+}
+
+.td-btn-position {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+
+.td-button {
+    width: 110px;
+    height: auto;
+    padding: 15px;
+    border: solid 2px #FFF;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 4px;
+    /* transition: 2s; */
+    /* background: #FFF; */
+}
+
+.td-button:hover {
+    cursor: pointer;
+    background: #FFF;
+    color: #1F9EFB;
+    transition: 0.5s;
+}
+
+
+
+
+
+.td-button a {
+    font-size: 14px;
+    color: #FFF;    
+}
+
+.td-button a:link {
+    text-decoration: none;
+}
+
+.show-title {
+    position: relative;
+    top: 30%;
+    font-size: 1.5em;
+}

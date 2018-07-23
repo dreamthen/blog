@@ -5,5 +5,8 @@
         btnObj.addEventListener("click", function(e) {
             window.location.href="https://every-component.github.io/blog/";
         })
+
+        
     }
+
 )(window)
