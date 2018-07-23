@@ -27,15 +27,15 @@
 </body>
 <script src="https://cdn.bootcss.com/device.js/0.2.7/device.js"></script>
 <script>
-    if(device.mobile()){
+    if(device.mobile() == true){
 
         window.location.href="https://every-component.github.io/blog/mobilePage.html";
+     
 
+    } else if(device.mobile() == false) {
 
-    } else {
+        window.location.href="https://every-component.github.io/blog/indexUed.html";
 
-        // window.location.href="https://every-component.github.io/blog/indexUed.html";
-        break;
 
 
     }
