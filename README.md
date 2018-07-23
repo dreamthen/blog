@@ -10,9 +10,9 @@
 
 ## 博客目录
 
-文章地址 | 作者 | 文章关键字 |
----- | ----- | ---- | ---- |
-[数据结构Javascript实现](https://github.com/every-component/blog/issues/1)  | [dreamthen](https://github.com/dreamthen) | `JS`, `数据结构`
-| |
+| 文章地址 | 作者 | 文章关键字 |
+| ---- | ----- | ---- | 
+|[数据结构Javascript实现](https://github.com/every-component/blog/issues/1)  | [dreamthen](https://github.com/dreamthen) | `JS`, `数据结构`|
+
 
  
